@@ -1,0 +1,13 @@
+.headerContainer{
+    background-color: rgba(5, 5, 5, 0.184);
+    height: auto;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    justify-content:space-around;
+    
+    
+}
