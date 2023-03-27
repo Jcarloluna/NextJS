@@ -1,7 +1,6 @@
-import MainNavigation from "@/components/MainNavigation";
+import MainNavigation from "@/UI/MainNavigation";
 import Hero from "@/components/Hero";
 import { Fragment } from "react";
-
 
 const HomePage = () => {
   return (
