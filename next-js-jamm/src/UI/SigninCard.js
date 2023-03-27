@@ -9,14 +9,14 @@ const SigninCard = () => {
     <Fragment>
       <div className={styles.cardContainer}>
         <div className={styles.cardHeader}>
-            <h2>Just Another Minecraft Multiplayer</h2>
+            <h2>JAMM Authentication</h2>
         </div>
         <form className={styles.formContainer}>
           <label for="email">Email</label>
           <input type="email" name="email" id="inputEmail"/>
           <label for="email">Password</label>
           <input type="password" name="password" id="inputPassword"/>
-          <button>SIGN IN</button>
+          <button className={styles.primaryButton}>SIGN IN</button>
         </form>
       </div>
     </Fragment>

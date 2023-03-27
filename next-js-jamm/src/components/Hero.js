@@ -10,7 +10,7 @@ const Hero = () => {
   return (
     <Fragment>
       <div className={styles.container}>
-        <h1 className={styles.title}>Just Another Minecraft Server</h1>
+        <h1 className={styles.title}>Just Another Minecraft Multiplayer</h1>
         <hr/>
         {showModal && <SigninCard/>}
         {showModal && <Backdrop/>}

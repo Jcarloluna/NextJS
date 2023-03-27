@@ -1,5 +1,5 @@
 .container{
-    background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ),url("../../public/images/heroBackground.png") no-repeat center center fixed; 
+    background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ),url("../../public/images/heroBackground.png") no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -19,5 +19,6 @@
     font-weight:900;
     color:rgb(255, 255, 255);    
     text-align: center;
+    margin-top:50px;
     
 }

@@ -14,7 +14,7 @@ const NavigationButtons = () => {
   return (
     <Fragment>
       <button className={styles.primaryButton} onClick={toggleHandler}>
-        Sign in
+        SIGN IN
       </button>
     </Fragment>
   );
