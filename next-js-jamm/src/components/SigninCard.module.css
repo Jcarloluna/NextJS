@@ -1,7 +1,8 @@
 .cardContainer{
     z-index: 1040;
-    height: 70vh;
-    background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ),url("../../public/images/modalBackground.jpg") no-repeat center center;
+    min-height: 70vh;
+    height: auto;
+    background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ),url("../../public/images/modalBackground.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -11,21 +12,37 @@
     border-radius: 20px;
     padding: 3%;
     position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 10vh;
+    left: 50;
     color:white;
+    border: #fcfcfc 1px solid;
+    animation:0.5s ease-in-out;
+    animation-name: animate-container;
+    animation-fill-mode: forwards;
+    
 }
+
+@keyframes animate-container {
+    0%{
+      transform: translate3d(0px, -200px, 0px); opacity:0.25;
+    }
+   
+    100%{
+      transform:  translate3d(0px, 0px, 0px); opacity:1;
+    }
+    
+  }
 
 .formContainer{
     display: flex;
     flex-direction: column;
-    gap: 10px;
     padding: 0px 5px 0px 5px;
     align-items: center;
     justify-content: center;
     text-align: center;
+    gap:10px;
 }
+
 
 .cardHeader{
     justify-content: center;
@@ -34,10 +51,9 @@
 }
 
 .formContainer input{
-    
     display: block;
     width: auto;
-    min-width:70%;
+    min-width: 220px;
     height: 34px;
     padding: 6px 12px;
     font-size: 14px;
@@ -70,14 +86,15 @@
 
 .primaryButton{
     cursor: pointer;
-    font: 10pt 'Minecraftia', sans-serif;
+    font: 12pt 'Minecraftia', sans-serif;
     box-shadow: inset -2px -4px #0006, inset 2px 2px #FFF7;
     padding:5px;
     text-shadow: 2px 2px #000A;
     color:white;
     background-color: rgb(186, 186, 186);
-    min-width: 100px;
+    min-width: 220px;
     margin-top:10px ;
+    width: auto;
 }
 
 .primaryButton:hover{
@@ -89,3 +106,15 @@
     transform: scale(0.95);
     transition: 0.3s;
 }
+
+.signUpButtonContainer{
+    margin-top:10px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 50%;
+    width: auto;
+}
+

@@ -1,8 +1,9 @@
 import React, { Fragment } from "react";
-import SigninCard from "../UI/SigninCard";
+import SigninCard from "./SigninCard";
 import styles from "./Hero.module.css";
 import { useSelector } from "react-redux";
 import Backdrop from "@/UI/Backdrop";
+import ContentOverview from "@/components/ContentOverview";
 
 const Hero = () => {
   const showModal = useSelector((state) => state.credsModal.showModal)

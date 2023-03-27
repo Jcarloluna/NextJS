@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import { Fragment } from "react";
 import Footer from "@/components/Footer";
 
+
 const HomePage = () => {
   return (
     <Fragment>
