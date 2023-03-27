@@ -33,22 +33,6 @@
     padding: 40px 40px;
 }
 
-.primaryButton{
-    cursor: pointer;
-    font: 10pt 'Minecraftia', sans-serif;
-    box-shadow: inset -2px -4px #0006, inset 2px 2px #FFF7;
-    padding:5px;
-    text-shadow: 2px 2px #000A;
-    color:white;
-    background-color: rgb(186, 186, 186);
-    min-width: 100px;
-    margin-top:10px ;
-}
-
-.primaryButton:hover{
-    color:#fbf1a1;
-    background-color: #6868ae;
-}
 .formContainer input{
     
     display: block;
@@ -81,4 +65,27 @@
 
 .formContainer input:hover + .formContainer label{
     color:#fbf1a1;
+}
+
+
+.primaryButton{
+    cursor: pointer;
+    font: 10pt 'Minecraftia', sans-serif;
+    box-shadow: inset -2px -4px #0006, inset 2px 2px #FFF7;
+    padding:5px;
+    text-shadow: 2px 2px #000A;
+    color:white;
+    background-color: rgb(186, 186, 186);
+    min-width: 100px;
+    margin-top:10px ;
+}
+
+.primaryButton:hover{
+    color:#fbf1a1;
+    background-color: #6868ae;
+}
+
+.primaryButton:active{
+    transform: scale(0.95);
+    transition: 0.3s;
 }

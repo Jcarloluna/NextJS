@@ -13,3 +13,8 @@
     color:#fbf1a1;
     background-color: #6868ae;
 }
+
+.primaryButton:active{
+    transform: scale(0.95);
+    transition: 0.3s;
+}
