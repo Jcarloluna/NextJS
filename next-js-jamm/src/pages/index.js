@@ -1,9 +1,15 @@
+import MainNavigation from "@/components/MainNavigation";
+import Hero from "@/components/Hero";
+import { Fragment } from "react";
+
 
 const HomePage = () => {
   return (
-    <div>
-      <h1>The Home Page</h1>
-    </div>
+    <Fragment>
+      <MainNavigation/>
+      <Hero/>
+    </Fragment>
+
   )
 }
 

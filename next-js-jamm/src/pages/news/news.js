@@ -3,7 +3,7 @@
 const NewsPage = () => {
   return (
     <div>
-        <h1>This is the News Page</h1>
+        <h1>This is the News Paasdasdge</h1>
     </div>
   )
 }
