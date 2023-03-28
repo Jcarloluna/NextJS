@@ -28,7 +28,7 @@ const SigninCard = () => {
     <Fragment>
       <div className={styles.cardContainer}>
         <div className={styles.cardHeader}>
-          <h2>JAMM Authentication</h2>
+          {isLogin? <h2>JAMM Authentication Login</h2> : <h2>JAMM Registration</h2>}
         </div>
         {isLogin ? (
           <div>

@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 import SigninCard from "./SigninCard";
 import styles from "./Hero.module.css";
 import { useSelector } from "react-redux";
-import Backdrop from "@/UI/Backdrop";
+import Backdrop from "@/components/UI/Backdrop";
 import ContentOverview from "@/components/ContentOverview";
 
 const Hero = () => {
